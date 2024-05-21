@@ -8,6 +8,7 @@ body {
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: gray;
 }
 
 header {
@@ -28,9 +29,21 @@ header {
     font-size: 50px;
 }
 
+.buttons {
+    border: 3px solid gray;
+    padding: 20px 20px;
+}
+
 .container {
+    color: white;
+    background-color: black;
     width: 1200px;
-    margin: 0 auto;
+    margin: 40px auto;
+}
+
+.list {
+    padding: 20px;
+    border: 3px solid gray;
 }
 
 ul {
