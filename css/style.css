@@ -50,21 +50,23 @@ header {
 }
 
 .buttons {
-    border: 3px solid gray;
     padding: 20px 20px;
 }
 
 .container {
-    color: white;
-    background-color: black;
     width: 1200px;
     margin: 40px auto;
 }
 
+.content {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
 .list {
     padding: 20px;
-    border: 3px solid gray;
-}
+    border-top: 3px solid gray;
 
 ul {
     list-style-type: none;
